@@ -1,0 +1,12 @@
+﻿*.log
+*.pot
+*.pyc
+__pycache__/
+.env
+.venv
+env/
+venv/
+djangoenv/
+db.sqlite3
+**/migrations/
+.history
