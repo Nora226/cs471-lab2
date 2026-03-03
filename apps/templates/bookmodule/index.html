@@ -1,1 +1,8 @@
-<h1>Hello from {{ name }}!</h1>
+{% extends "layouts/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to Book Store</h1>
+<p>This is the homepage.</p>
+{% endblock %}

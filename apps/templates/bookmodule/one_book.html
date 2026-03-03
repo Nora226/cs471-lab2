@@ -1,0 +1,9 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Book Details{% endblock %}
+
+{% block content %}
+<h2>Book Details</h2>
+<p>This is the details page of the selected book.</p>
+<a href="{% url 'books.list_books' %}">Go Back</a>
+{% endblock %}
